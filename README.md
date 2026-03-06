@@ -1,0 +1,2 @@
+# learning
+;earning about javascript
