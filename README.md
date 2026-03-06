@@ -1,5 +1,5 @@
 # learning
-;earning about javascript
+learning about javascript
 JavaScript 方法学习笔记
 本仓库记录了学习 JavaScript 过程中常用的内置方法，按类别整理，方便查阅。
 
