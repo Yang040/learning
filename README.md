@@ -78,6 +78,8 @@ flat(depth)	扁平化嵌套数组	[1,[2]].flat() → [1,2]
 
 length 属性	获取数组长度	arr.length
 
+array.splice(start, deleteCount, item1, item2, ...) 在任意数组位置插入、删除或替换数组元素，并直接修改原数组
+
 对象方法
 
 方法	作用	示例
