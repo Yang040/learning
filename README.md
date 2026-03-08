@@ -114,6 +114,12 @@ Math.floor(x)	向下取整	Math.floor(3.9) → 3
 
 Math.pow(base, exp)	幂运算	Math.pow(2,3) → 8
 
+Math.random() * (max - min) + min;生成随机浮点数[min,max)
+
+Math.floor(Math.random() * (max - min + 1)) + min;生成随机整数 [min,max]
+
+Math.floor(Math.random() * max);生成随机整数 [min,max)
+
 其他方法
 
 方法	作用	示例
