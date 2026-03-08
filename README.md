@@ -18,6 +18,8 @@ JavaScript 方法学习笔记
 
 方法	作用	示例
 
+string[index] 字符串可以像数组一样通过索引来访问字符串中的某一个字符
+
 slice(start, end)	提取字符串的一部分，返回新字符串	"Hello".slice(1,4) → "ell"
 
 repeat(count)	重复字符串指定次数	"ha".repeat(3) → "hahaha"
