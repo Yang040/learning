@@ -16,3 +16,4 @@ function convertHTML(str) {
   }
   return result;
 }
+Object mapping(对象映射法转换为HTML）
