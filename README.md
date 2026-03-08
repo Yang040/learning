@@ -94,6 +94,10 @@ Object.entries(obj)	返回键值对数组	Object.entries({a:1}) → [['a',1]]
 
 delete obj.prop	删除对象属性	delete obj.age
 
+在对象字面量中，如果属性名需要动态计算（比如使用表达式），必须用方括号 [] 包裹起来
+
+const lowerProduct = { [product.name.toLowerCase()]: product.quantity };
+
 数学方法
 
 方法	作用	示例
