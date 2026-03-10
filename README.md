@@ -158,3 +158,4 @@ let numbers = [1, 2, 3, 4, 5];
 numbers.forEach((number, index, array) => {
   console.log(`Element ${number} is at index ${index} in array ${array}`);
 });回调函数调用参数当前元素、当前元素的索引，以及调用 forEach 的数组
+map(),filter()参数类似；
