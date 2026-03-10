@@ -14,6 +14,8 @@ JavaScript 方法学习笔记
 
 其他方法
 
+高阶函数
+
 字符串方法
 
 方法	作用	示例
@@ -149,3 +151,10 @@ splice() 会修改原数组，而 slice() 不会。
 使用 Math.max(...arr) 时确保 arr 不为空，否则返回 -Infinity。
 
 concat() 对于数组参数会展开一层，如需保持嵌套需额外包装。
+
+高阶函数
+
+let numbers = [1, 2, 3, 4, 5];
+numbers.forEach((number, index, array) => {
+  console.log(`Element ${number} is at index ${index} in array ${array}`);
+});回调函数调用参数当前元素、当前元素的索引，以及调用 forEach 的数组
